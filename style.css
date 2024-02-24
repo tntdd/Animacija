@@ -1,0 +1,51 @@
+body {
+   background: #050210 ;
+}
+
+    .box span
+    {
+      width: 400px;
+      height: 400px;
+      background:linear-gradient( #fb5dad, #55fb9f, #b97aff );
+      margin: 0,auto;
+      left: 400px;
+      right: 0;
+      position:absolute;
+      top:100px;
+      border-radius: 50%;
+      animation: animate 1s linear infinite;
+    }
+    .box span:nth-child(1){
+      filter: blur(50px);
+    }
+     
+  @keyframes animate{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+     }
+
+ 
+   
+    
+  
+  .box1{
+    width: 340px;
+    height: 340px;
+    background: #050210 ;
+    margin: 0,auto;
+    left: 430px;
+    right: 0;
+    position:absolute;
+    top:130px;
+    border-radius: 50%; 
+  }
+
+  
+
+    
+  
+
+  
+
+  
+  
